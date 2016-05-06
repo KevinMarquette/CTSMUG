@@ -14,7 +14,7 @@ function prompt
 
 Clear-Host
 
-& '.\Powershell is Awesome.pptx'
+& '.\Powershell is Awesome.ppsx'
 
 #endregion
 
