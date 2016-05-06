@@ -112,7 +112,6 @@ ise '.\4 Module\Demo\Demo.psd1'
 $name = 'CTSMUG'
 $path = Join-Path (resolve-path '.\5 Module (Interactive Demo)') -ChildPath $name
 MD $path
-Copy-Item '.\4 Module\Demo\Demo.Tests.ps1' "$path\$name.Tests.ps1"
 
 # Create root module and manifest
 Copy-Item '.\4 Module\Demo\Demo.psm1' "$path\$name.psm1"
