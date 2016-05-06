@@ -83,8 +83,9 @@ ise '.\2 Advanced Script\NewShortcut.ps1'
 
 
 # Show an advanced function
-ise '.\3 Advanced Functions\New-Shortcut.ps1'
 ise '.\3 Advanced Functions\Get-Shortcut.ps1'
+ise '.\3 Advanced Functions\New-Shortcut.ps1'
+
 
 . '.\3 Advanced Functions\New-Shortcut.ps1'
 Get-Command New-Shortcut
