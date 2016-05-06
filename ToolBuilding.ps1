@@ -2,7 +2,7 @@
 break;  # F5 trap
 #region Demo Prep
 
-$root = "C:\Users\kevin.marquette\Documents\kevmar\PesterInAction" # My working directory
+$root = "C:\Users\kevin.marquette\Documents\kevmar\ToolBuilding" # My working directory
 pushd $root
 
 function prompt
