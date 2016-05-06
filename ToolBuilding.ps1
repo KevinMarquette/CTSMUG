@@ -48,7 +48,7 @@ Clear-Host
  #   Uses Write-Verbose over Write-Host for information output. Allow it to be silent.
  # It does one thing an does it really well. The name should tell you what that things is.
  #   Gathering data and making it look good are two different things. Should be two different functions.
- # If you copy and Paste or repeat code, it should be a function
+ # If you copy and paste or repeat code, it should be a function
  
 
  # A function can be really really small
@@ -61,7 +61,7 @@ Clear-Host
  ISE .\Snippets.ps1
  #  Include a basic help comment
  #  Put each function in its own file
- #    Tree view makes it easy to find and jump to a function
+ #    An Explorer Tree view makes it easy to find and jump to a function (ISE Project Explorer)
  #    Scales really well as your library grows
  #    This pattern works really well with source control allowing you to track and roll back changes on individual functions
  #    This pattern works really well with automated testing with Pester. 
@@ -109,7 +109,7 @@ ise '.\4 Module\Demo\Demo.psd1'
 
 #region Build a module on the fly
 # Create a module folder and add the Pester tests
-$name = 'DemoModule3'
+$name = 'CTSMUG'
 $path = Join-Path (resolve-path '.\5 Module (Interactive Demo)') -ChildPath $name
 MD $path
 Copy-Item '.\4 Module\Demo\Demo.Tests.ps1' "$path\$name.Tests.ps1"
